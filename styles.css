@@ -1,0 +1,97 @@
+ul {
+  list-style-type: none;
+
+  margin: 0;
+
+  padding: 0;
+
+  overflow: hidden;
+
+  background-color: aqua;
+  width: 300px;
+  border-radius: 5%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+
+  color: rgb(0, 0, 0);
+
+  text-align: center;
+
+  padding: 14px 16px;
+
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(0, 174, 255);
+}
+
+li a .active {
+  background-color: #111;
+}
+body {
+  background-image: url(./programming-code-coding-hacker-background-programming-code-icon-made-with-binary-code_127544-815.webp);
+  background-size: cover;
+}
+#firsthead {
+  border: 5px solid;
+  text-align: center;
+  border-width: 80%;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: black;
+  color: rgb(1, 100, 212);
+  border-color: black;
+  border-radius: 10%;
+}
+.card {
+  width: 20%;
+  display: inline-block;
+  box-shadow: 20px 20px 20px black;
+  border-radius: 30px;
+  margin: 12%;
+  grid-template-columns: repeat(2, 1fr);
+  background-image: linear-gradient(rgb(1, 132, 255), rgb(1, 52, 82));
+}
+.image img {
+  width: 100%;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  height: 190px;
+}
+.title {
+  text-align: center;
+}
+.des {
+  text-align: center;
+}
+table,
+td {
+  border: 1px solid;
+  background-color: aqua;
+  margin: auto;
+  border-style: solid;
+
+}
+h2 {
+  font-size: xx-large;
+  border: 5px solid;
+  text-align: center;
+  border-width: 5px;
+  margin-left: 250px;
+  margin-right: 250px;
+  background-color: black;
+  color: rgb(1, 100, 212);
+  border-color: black;
+  border-radius: 10%;
+}
+.headings {
+  font-weight: bold;
+  font-size: larger;
+}
